@@ -1,0 +1,478 @@
+/*промежуток 1440 - 1700 */
+
+
+/*промежуток 1024 - 1229 */
+@media screen and (max-width: 1229px) {
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .header .container {
+        justify-content: space-between;
+    }
+
+    .phone {
+        margin-left: 0;
+    }
+
+    .logo {
+        margin-right: 0;
+    }
+
+    .advantages-image {
+        width: 400px;
+    }
+
+    .advantages-image img {
+        max-width: 100%;
+    }
+
+    .animation-left img {
+        margin-top: 41px;
+        margin-left: -7px;
+    }
+
+    .animation-right img {
+        margin-top: 477px;
+        margin-left: -139px;
+    }
+}
+
+/*промежуток 768 - 1023 */
+@media screen and (max-width: 1023px) {
+    .header {
+        .phone {
+            display: none;
+        }
+    }
+
+    .header .container {
+        justify-content: flex-start;
+    }
+
+    .logo {
+        margin-right: 103px;
+    }
+
+    .main-info h1 {
+        padding-top: 102px;
+    }
+
+    .main-text {
+        padding-top: 73px;
+        padding-bottom: 41px;
+    }
+
+    .main .container {
+        flex-direction: column;
+    }
+
+    .main-action {
+        padding-bottom: 0;
+    }
+
+    .main-image img {
+        margin-top: -83px;
+        margin-left: 140px;
+        width: 528px;
+        padding-bottom: 62px;
+        z-index: 0;
+
+    }
+
+
+    .circle-pulse::after,
+    .circle-pulse::before {
+        left: 300px;
+    }
+
+    .advantages .container {
+        max-width: 768px;
+    }
+
+    .advantages {
+        padding: 119px 0 43px 0;
+    }
+
+    .advantages-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .advantages h2 {
+        text-align: center;
+        max-width: 478px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .advantages-text {
+        text-align: center;
+        max-width: 675px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .advantages-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+
+    .advantages-image img {
+        position: relative;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 312px;
+    }
+
+    .advantages-descriptions {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 490px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .advantage-description {
+        max-width: 215px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .advantages-description-image {
+        width: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .advantages-description-description {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .macaroons {
+        padding: 120px 0 0 0;;
+    }
+
+    .products {
+        max-width: 574px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .macaroon {
+        margin-bottom: 136px;
+    }
+
+
+    .order-macaroons-image {
+        margin-right: 0;
+        margin-top: 242px;
+        position: absolute;
+        right: 13px;
+
+
+    }
+
+    .order-macaroons-image img {
+        position: relative;
+    }
+
+    .order-macaroons-title {
+        order: -1;
+        margin-right: 0;
+        position: relative;
+
+
+    }
+
+    .order-macaroons-text {
+        width: 406px;
+    }
+
+    .footer .container {
+        max-width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+    .footer-instagram {
+        margin-left: 0;
+    }
+
+    .animation-left {
+        position: absolute;
+        margin-left: 327px;
+        margin-top: 216px;
+    }
+
+    .animation-right img {
+        margin-top: 124px;
+        margin-left: -152px;
+    }
+}
+
+/*промежуток 425 - 767*/
+@media screen and (max-width: 767px) {
+    .header .container {
+        display: block;
+        text-align: center;
+    }
+
+    .logo {
+        margin-right: 0;
+    }
+
+    .menu ul {
+        width: auto;
+        margin-top: 10px;
+    }
+
+
+    .main-image img {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        max-width: 253px;
+    }
+
+    .circle-pulse::after, .circle-pulse::before {
+
+    }
+
+    .advantages-image {
+        margin-left: 0;
+    }
+
+    .macaroon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .advantage-description {
+        max-width: 175px;
+    }
+
+    .order-macaroons-title h2 {
+        font-size: 30px;
+        max-width: 271px;
+    }
+
+    .order-macaroons-text {
+        width: 396px;
+    }
+
+    .order-macaroons-form-input {
+        width: 344px;
+    }
+
+    .order-macaroons-form .btn {
+        width: 344px;
+    }
+
+    .order-macaroons-image img {
+        display: none;
+    }
+
+    .animation-right img {
+        display: none;
+    }
+
+    .animation-left img {
+        margin-top: -87px;
+        margin-left: -59px;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 40px 0;
+        text-align: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .footer-logo {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .logo .footer {
+        display: flex;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .footer-logo-image {
+        display: flex;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .footer-logo-image img {
+        margin-bottom: 40px;
+
+    }
+
+    .footer-rights {
+        display: flex;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: -21px;
+
+    }
+
+    .footer-instagram {
+        display: flex;
+        flex-direction: column;
+        order: 3;
+    }
+
+    .phone {
+        display: flex;
+        order: 2;
+        margin-bottom: 40px;
+    }
+
+    .footer-instagram-image img {
+        margin-bottom: 0;
+    }
+
+    .circle-pulse::after,
+    .circle-pulse::before {
+        width: 100px;
+        height: 100px;
+        left: 80px;
+        bottom: 100px;
+    }
+}
+
+/*промежуток 375 - 424 */
+@media screen and (max-width: 424px) {
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .burger {
+        display: flex;
+        order: 2;
+    }
+    .logo {
+        display: flex;
+        order: 1;
+    }
+    .menu {
+        display: none;
+    }
+
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: #000000f0;
+        z-index: 99;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .menu-item {
+        margin: 10px 0;
+    }
+
+    .advantages-descriptions {
+        gap: 0;
+        justify-content: center;
+    }
+
+    .advantage-description {
+        margin: 9px;
+        max-width: 153px;
+    }
+
+    .advantages-description-title {
+        font-size: 17px;
+    }
+
+    .advantages-text {
+        font-size: 13px;
+        line-height: 1.385;
+    }
+
+    .order-macaroons-text {
+        width: 341px;
+        font-size: 16px;
+    }
+    .burger {
+        display: block;
+    }
+    .burger svg {
+        width: 36px;
+        height: 36px;
+        fill: rgb(119, 10, 29);
+        margin-right: 20px;
+    }
+    .menu.open {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu .close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: rgb(119, 10, 29);
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+}
+/*промежуток 320 - 374 */
+@media screen and (max-width: 374px) {
+    .main-info h1 {
+        width: 100%;
+        font-size: 36px;
+    }
+    .order-macaroons-form-input {
+        width: 100%;
+    }
+    .order-macaroons-form .btn {
+        width: 100%;
+    }
+    .order-macaroons-title {
+        width: 100%;
+    }
+    .order-macaroons-text {
+        width: 100%;
+    }
+    .animation-left {
+        margin-left: 0;
+        left: 270px;
+    }
+}
+
+
+
